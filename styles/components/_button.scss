@@ -1,0 +1,19 @@
+@import '../base/variables';
+
+.button {
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: $font-size-xs;
+  padding: 14px 27px;
+  outline: none;
+  transition: background-color $transition-duration;
+  &--green {
+    color: $white-color;
+    background-color: $green-btn-color;
+  }
+  &--green:hover,
+  &--green:focus-visible {
+    background-color: $green-btn-hover-color;
+  }
+}

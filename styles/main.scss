@@ -1,0 +1,37 @@
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
+
+@import 'components/button';
+@import 'components/nav';
+@import 'components/hero';
+@import 'components/promo';
+@import 'components/logo';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: $font;
+  color: var(--black-color);
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1105px;
+  margin: auto;
+}
