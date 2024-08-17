@@ -5,7 +5,7 @@
   cursor: pointer;
   border-radius: 50px;
   font-size: $font-size-xs;
-  padding: 14px 27px;
+  padding: 12px 26px;
   outline: none;
   transition: background-color $transition-duration;
   &--green {
@@ -15,5 +15,15 @@
   &--green:hover,
   &--green:focus-visible {
     background-color: $green-btn-hover-color;
+  }
+  &--transparent{
+    background-color: transparent;
+    color: $green-btn-color;
+    border: 1px solid $green-btn-color;
+  }
+  &--transparent:hover,
+  &--transparent:focus-visible {
+    background-color: $green-btn-color;
+    color: $white-color;
   }
 }

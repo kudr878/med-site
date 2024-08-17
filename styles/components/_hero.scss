@@ -7,7 +7,8 @@
   display: flex;
   justify-content: space-between;
   background-color: $hero-bcg-color;
-  &__content{
+  margin-bottom: 99px;
+  &__content {
     padding-left: 377px;
     padding-right: 211px;
     padding-top: 138px;
@@ -20,6 +21,7 @@
   &__title {
     font-size: $font-size-xl;
     margin-bottom: 13px;
+    letter-spacing: -0.002em;
   }
   &__desc {
     font-size: $font-size-s;

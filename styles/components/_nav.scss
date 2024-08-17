@@ -8,9 +8,10 @@
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 27.1px;
+    gap: 30px;
   }
   &__link {
+    outline: none;
     color: $white-color;
     transition: background-color $transition-duration;
   }
